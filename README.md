@@ -1,11 +1,19 @@
 # State-Wise Annual Rainfall Analysis and Prediction in India Using Machine Learning
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://rainfall-prediction-india.streamlit.app)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-LalitChoudhary--cloud%2Frainfall--prediction--india-blue?logo=github)](https://github.com/LalitChoudhary-cloud/rainfall-prediction-india)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Scikit-Learn](https://img.shields.io/badge/Library-Scikit--Learn-orange.svg)](https://scikit-learn.org/)
 [![Domain](https://img.shields.io/badge/Domain-Water%20Resources%20%26%20Hydrology-green.svg)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 An engineering hydrology and machine learning study evaluating **115 years ($1901–2015$)** of historical precipitation records from the **India Meteorological Department (IMD)** to assess spatial disparity, climatic trends, and multi-decadal predictive capabilities.
+
+---
+
+## 🌐 Live Interactive Web Application
+🚀 **Try the Live Streamlit App:** [https://rainfall-prediction-india.streamlit.app](https://rainfall-prediction-india.streamlit.app)  
+*(Select any Indian state, input target years, test prediction algorithms, and view dynamic hydrological uncertainty bands live in your browser!)*
 
 ---
 
@@ -69,6 +77,8 @@ Comparison of regression models on unseen future test horizon ($1993–2015$) fo
 │   ├── clean_data.py                         # Hydrological cleaning & imputation
 │   ├── generate_eda_plots.py                 # Script to reproduce all figures
 │   └── build_notebook.py                     # Notebook synchronization utility
+├── app.py                                    # Streamlit Web Application
+├── streamlit_app.py                          # Streamlit Deployment Entrypoint
 ├── rainfall_prediction_project.ipynb         # Interactive Jupyter Notebook with ipywidgets
 ├── PROJECT_REPORT.md                         # Full academic project report
 ├── PRESENTATION_OUTLINE.md                   # 12-slide presentation structure
@@ -82,7 +92,7 @@ Comparison of regression models on unseen future test horizon ($1993–2015$) fo
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/rainfall-prediction-india.git
+git clone https://github.com/LalitChoudhary-cloud/rainfall-prediction-india.git
 cd rainfall-prediction-india
 ```
 
@@ -97,12 +107,15 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 3. Run the Interactive Dashboard
-Launch Jupyter Notebook and open `rainfall_prediction_project.ipynb`:
+### 3. Launch Streamlit Web App Locally
+```bash
+streamlit run streamlit_app.py
+```
+
+### 4. Or Run the Interactive Jupyter Notebook
 ```bash
 jupyter notebook rainfall_prediction_project.ipynb
 ```
-Navigate to **Phase 6** to use the interactive dropdowns, forecast horizon warnings, and $\pm 1\sigma$ uncertainty band generator.
 
 ---
 
