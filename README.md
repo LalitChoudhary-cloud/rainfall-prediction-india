@@ -1,6 +1,6 @@
 # State-Wise Annual Rainfall Analysis and Prediction in India Using Machine Learning
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://rainfall-prediction-india.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://rainfall-prediction-india-yqwtqnfgttxry5cj6kuggh.streamlit.app/)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-LalitChoudhary--cloud%2Frainfall--prediction--india-blue?logo=github)](https://github.com/LalitChoudhary-cloud/rainfall-prediction-india)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Scikit-Learn](https://img.shields.io/badge/Library-Scikit--Learn-orange.svg)](https://scikit-learn.org/)
@@ -12,7 +12,7 @@ An engineering hydrology and machine learning study evaluating **115 years ($190
 ---
 
 ## 🌐 Live Interactive Web Application
-🚀 **Try the Live Streamlit App:** [https://rainfall-prediction-india.streamlit.app](https://rainfall-prediction-india.streamlit.app)  
+🚀 **Try the Live Streamlit App:** [https://rainfall-prediction-india-yqwtqnfgttxry5cj6kuggh.streamlit.app/](https://rainfall-prediction-india-yqwtqnfgttxry5cj6kuggh.streamlit.app/)  
 *(Select any Indian state, input target years, test prediction algorithms, and view dynamic hydrological uncertainty bands live in your browser!)*
 
 ---
