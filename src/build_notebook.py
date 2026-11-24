@@ -58,7 +58,7 @@ print(f"Shape: {df_normals.shape[0]} rows, {df_normals.shape[1]} columns")
 print(f"Missing Values: {df_normals.isnull().sum().sum()}")
 display(df_normals[['STATE_UT_NAME', 'DISTRICT', 'ANNUAL', 'Jun-Sep']].head(3))
 
-print("\n" + "=" * 70)
+print("\\n" + "=" * 70)
 print("2. INSPECTING 115-YEAR HISTORICAL TIME-SERIES DATASET (IMD)")
 print("=" * 70)
 print(f"Shape: {df_historical.shape[0]} rows, {df_historical.shape[1]} columns")
